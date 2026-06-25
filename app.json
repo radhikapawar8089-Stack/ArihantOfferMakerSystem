@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Arihant Offer Maker",
+    "slug": "arihant-offer-maker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "scheme": "arihant",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#00643a"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.arihant.offermakker"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#00643a"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.arihant.offermaker"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-font",
+        {
+          "fonts": []
+        }
+      ],
+      "expo-image-picker"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
